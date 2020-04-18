@@ -1,0 +1,58 @@
+interface_AI_intFunc proc
+end proc
+interface_AI_int_intFunc1_int_int_string proc
+end proc
+General_Class_A_public_int_Afunc proc
+T0=call Afunc,0
+abc=T0
+T1=4+5
+end proc
+General_Class_B_Main proc
+end proc
+General_Class_C_public_Constructor proc
+end proc
+General_Class_C_public_Constructor_int proc
+T2=call Afunc,0
+int_b=T2
+this_aa=15
+int_i=0
+int_j=0
+L0:
+T3=i<j
+if(T3==false) jmpL1
+if(true==false) jmpL2
+int_k
+jmpL4
+L2:
+T4=a+9
+T5=8%aa
+T6=3+T5
+T7=T6+a
+T8=T4<=T7
+T9=!(T8)
+if(T9==false) jmpL4
+i=j
+jmpL4
+L4:
+i=i+1
+aa=aa+1
+ch[1]=ch[1]+1
+j= 1 + j
+jmp L0
+L1:
+end proc
+General_Class_C_public_Constructor_int_int_float proc
+this_a=a
+this_aa=b
+this_objc_f=c
+end proc
+General_Class_C_public_Cfunc_int_string proc
+end proc
+General_Class_C_public_B[,]_C_B proc
+B_bc=new_B
+end proc
+General_Class_C_public_int[,]_int_string proc
+int_arr[4,a]={{},{}};
+end proc
+interface_BI_int_intFunc1_int_int_string proc
+end proc
